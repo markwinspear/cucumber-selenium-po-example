@@ -1,7 +1,7 @@
 package com.the_internet;
 
-import static org.junit.Assert.assertEquals;
-import cucumber.api.PendingException;
+import com.the_internet.pages.LoginPage;
+import com.the_internet.pages.NavigationPage;
 import cucumber.api.java8.En;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -10,22 +10,23 @@ import cucumber.api.java.After;
 
 public class LoginSteps implements En{
     WebDriver driver;
+    LoginPage login;
+    NavigationPage nav;
 
     public LoginSteps() {
 
     Given("^the Symbiote home page$", () -> {
-        driver.get("https://symbiote-app.herokuapp.com");
-        assertEquals("Symbiote", driver.getTitle());
+        login = new LoginPage(driver);
+        login.navigateTo();
     });
 
     When("^logging in as an admin$", () -> {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        login.loginAsAdmin();
     });
 
     Then("^the home page navigation is available$", () -> {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        nav = new NavigationPage(driver);
+        nav.checkForNavigationList();
     });
 
 
