@@ -9,7 +9,7 @@ TO RUN:
 Must use clean install for running with Maven in order to generate the nice reports
 
 TODO:
-finish the page object model implementation
 integrate with jenkins
+integrate with cucumber reporting jenkins plugin
 integrate with sauce labs
 add a db and api test
