@@ -94,5 +94,17 @@
     <orderEntry type="library" name="Maven: org.eclipse.sisu:org.eclipse.sisu.inject:0.3.0" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-component-annotations:1.5.5" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-classworlds:2.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.saucelabs:sauce_junit:2.1.20" level="project" />
+    <orderEntry type="library" name="Maven: com.saucelabs:sauce_java_common:2.1.20" level="project" />
+    <orderEntry type="library" name="Maven: com.saucelabs:saucerest:1.0.22" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20090211" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.saucelabs.selenium:sauce-ondemand-driver:1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.saucelabs:sauce-rest-api:1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jvnet.hudson:trilead-ssh2:build212-hudson-5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.jackson:jackson-core-asl:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.saucelabs.selenium:selenium-client-factory:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium.client-drivers:selenium-java-client-driver:1.0.2" level="project" />
   </component>
 </module>

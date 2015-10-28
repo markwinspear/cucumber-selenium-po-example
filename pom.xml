@@ -55,6 +55,25 @@
             <artifactId>maven-cucumber-reporting</artifactId>
             <version>0.1.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.saucelabs</groupId>
+            <artifactId>sauce_junit</artifactId>
+            <version>2.1.20</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.saucelabs.selenium</groupId>
+            <artifactId>sauce-ondemand-driver</artifactId>
+            <version>1.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.saucelabs.selenium</groupId>
+            <artifactId>selenium-client-factory</artifactId>
+            <version>1.2</version>
+        </dependency>
     </dependencies>
 
     <build>                     <!-- because using java 8 lambdas -->
@@ -105,6 +124,19 @@
             <id>sonatype-releases</id>
             <url>https://oss.sonatype.org/content/repositories/releases/</url>
         </repository>
+        <repository>
+            <id>saucelabs-repository</id>
+            <url>https://repository-saucelabs.forge.cloudbees.com/release</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
     </repositories>
+
+
+
 
 </project>
