@@ -1,0 +1,94 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7247199600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.startUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Successfully logging in",
+        "description": "",
+        "id": "authentication;successfully-logging-in",
+        "after": [
+          {
+            "result": {
+              "duration": 493581100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1572550200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the Symbiote home page",
+            "match": {
+              "location": "LoginSteps.java:18"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2784071000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "logging in as an admin",
+            "match": {
+              "location": "LoginSteps.java:23"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25058200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the home page navigation is available",
+            "match": {
+              "location": "LoginSteps.java:27"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Authentication",
+    "description": "",
+    "id": "authentication",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      },
+      {
+        "line": 1,
+        "name": "@login"
+      },
+      {
+        "line": 1,
+        "name": "@p1"
+      }
+    ]
+  }
+]

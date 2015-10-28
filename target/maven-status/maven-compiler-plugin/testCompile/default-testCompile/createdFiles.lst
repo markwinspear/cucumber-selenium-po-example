@@ -1,0 +1,5 @@
+com\the_internet\LoginSteps.class
+com\the_internet\pages\BasePage.class
+com\the_internet\pages\LoginPage.class
+com\the_internet\TestRunner.class
+com\the_internet\pages\NavigationPage.class
