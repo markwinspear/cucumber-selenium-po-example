@@ -22,13 +22,14 @@ public class BasePage {
     }
 
     public WebElement find(By locator) {
-        //WebDriverWait wait = new WebDriverWait(driver, 15);
-       // wait.until(ExpectedConditions.visibilityOfElementLocated(driver.findElement(locator)));
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         return driver.findElement(locator);
     }
 
     public void type(String inputText, By locator) {
         find(locator).sendKeys(inputText);
+
     }
 
     public void click(By locator) {

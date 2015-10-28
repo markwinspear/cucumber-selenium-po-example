@@ -1,3 +1,4 @@
+@smoke @login @p1
 Feature: Authentication
 
   Scenario: Successfully logging in
