@@ -1,4 +1,4 @@
-@smoke @login @p1
+@smoke @login @p1 @sauce
 Feature: Authentication
 
   Scenario: Successfully logging in

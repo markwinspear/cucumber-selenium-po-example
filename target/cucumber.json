@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 7247199600,
+              "duration": 7836958100,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 493581100,
+              "duration": 949743200,
               "status": "passed"
             },
             "match": {
@@ -34,37 +34,37 @@
         "steps": [
           {
             "result": {
-              "duration": 1572550200,
+              "duration": 1894909100,
               "status": "passed"
             },
             "line": 5,
             "name": "the Symbiote home page",
             "match": {
-              "location": "LoginSteps.java:18"
+              "location": "LoginSteps.java:27"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2784071000,
+              "duration": 2964701100,
               "status": "passed"
             },
             "line": 6,
             "name": "logging in as an admin",
             "match": {
-              "location": "LoginSteps.java:23"
+              "location": "LoginSteps.java:32"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 25058200,
+              "duration": 25416100,
               "status": "passed"
             },
             "line": 7,
             "name": "the home page navigation is available",
             "match": {
-              "location": "LoginSteps.java:27"
+              "location": "LoginSteps.java:36"
             },
             "keyword": "Then "
           }
@@ -88,6 +88,10 @@
       {
         "line": 1,
         "name": "@p1"
+      },
+      {
+        "line": 1,
+        "name": "@sauce"
       }
     ]
   }

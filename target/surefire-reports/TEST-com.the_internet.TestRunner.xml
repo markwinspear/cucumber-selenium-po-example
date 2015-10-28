@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.the_internet.TestRunner" time="13.608" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.the_internet.TestRunner" time="15.077" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="14.1.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @sauce"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
     <property name="java.vm.version" value="25.45-b02"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -11,7 +12,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7534"/>
+    <property name="idea.launcher.port" value="7538"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -46,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_45\jre"/>
-    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=14.1.5 clean install"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=14.1.5 clean install -Dcucumber.options=--tags @sauce"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,8 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Successfully logging in" name="Given the Symbiote home page" time="0.002"/>
+  <testcase classname="Scenario: Successfully logging in" name="Given the Symbiote home page" time="0"/>
   <testcase classname="Scenario: Successfully logging in" name="When logging in as an admin" time="0"/>
   <testcase classname="Scenario: Successfully logging in" name="Then the home page navigation is available" time="0"/>
-  <testcase classname="Scenario: Successfully logging in" name="Scenario: Successfully logging in" time="0.479"/>
+  <testcase classname="Scenario: Successfully logging in" name="Scenario: Successfully logging in" time="0.928"/>
 </testsuite>

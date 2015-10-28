@@ -17,11 +17,15 @@ formatter.feature({
     {
       "line": 1,
       "name": "@p1"
+    },
+    {
+      "line": 1,
+      "name": "@sauce"
     }
   ]
 });
 formatter.before({
-  "duration": 7247199600,
+  "duration": 7836958100,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,28 +52,28 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginSteps.java:18"
-});
-formatter.result({
-  "duration": 1572550200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.java:23"
-});
-formatter.result({
-  "duration": 2784071000,
-  "status": "passed"
-});
-formatter.match({
   "location": "LoginSteps.java:27"
 });
 formatter.result({
-  "duration": 25058200,
+  "duration": 1894909100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.java:32"
+});
+formatter.result({
+  "duration": 2964701100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.java:36"
+});
+formatter.result({
+  "duration": 25416100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 493581100,
+  "duration": 949743200,
   "status": "passed"
 });
 });
